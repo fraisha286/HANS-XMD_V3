@@ -1,0 +1,18 @@
+nom : Node.js CI
+
+sur :
+push :
+branches :
+- main
+pull_request :
+branches :
+- main
+
+tâches :
+build :
+
+exécution sur : ubuntu-latest
+
+stratégie :
+matrice :
+version du nœud : [20.x
